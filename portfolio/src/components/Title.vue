@@ -1,7 +1,3 @@
-<script setup>
-    const title = "Hello,<br>I'm Heejoo Kang";
-</script>
-
 <template>
     <section id="title">
         <div class="container">
@@ -16,6 +12,10 @@
         </div>
     </section>
 </template>
+
+<script setup>
+    const title = "Hello,<br>I'm Heejoo Kang";
+</script>
 
 <style scoped lang="scss">
     #title {

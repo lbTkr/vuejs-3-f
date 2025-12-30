@@ -1,5 +1,6 @@
 <script setup>
     import TitleComp from './components/Title.vue';
+    import PortfolioComp from './components/Portfolio.vue';
 </script>
 
 <template>
@@ -23,6 +24,7 @@
 </nav>
 
 <TitleComp />
+<PortfolioComp />
 
 </template>
 
