@@ -31,5 +31,22 @@
 </script>
 
 <style lang="scss" scoped>
+    #detail h1 {
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+        .badge {
+            font-size: small;
+        }
+    }
 
+    article {
+        img {
+            width: 100%;
+            aspect-ratio: 8/3;
+            object-fit: cover;
+            object-position: top;
+            margin-bottom: 1em;
+        }
+    }
 </style>
